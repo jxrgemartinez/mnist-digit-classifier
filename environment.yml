@@ -3,17 +3,17 @@ channels:
   - conda-forge
   - bioconda
   - nodefaults
-dependencies:              
-  - python>3.8
+dependencies:
+  - python=3.9
   - numpy
   - pandas
   - scikit-learn
-  - matplotlib
-  - jupyter
-  - jupyterlab
-  - seaborn
   - tensorflow
   - keras
+  - matplotlib
+  - seaborn
+  - jupyter
+  - ipykernel
   - pip
   - pip:
-      - scikeras
+    - scikeras
